@@ -1,7 +1,6 @@
 [![Build](https://github.com/Barutta02/MTSS_Assignment_2/actions/workflows/build.yml/badge.svg)](https://github.com/Barutta02/MTSS_Assignment_2/actions/workflows/build.yml)
 ![coverage](.github/badges/jacoco.svg)
 ![branches_coverage](.github/badges/branches.svg)
-[![Coverage Status](https://coveralls.io/repos/github/Barutta02/MTSS_Assignment_2/badge.svg?branch=main)](https://coveralls.io/github/Barutta02/MTSS_Assignment_2?branch=main)
 
 
 # MTSS_Assignment_2
