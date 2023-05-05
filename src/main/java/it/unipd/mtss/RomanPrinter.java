@@ -11,6 +11,7 @@ import java.util.Map;
 public class RomanPrinter {
     public static Map<String, String> letters;
 
+
     static {
           letters   = new HashMap<String, String>();
           letters.put("I", " _____ \n" +
@@ -71,13 +72,22 @@ public class RomanPrinter {
         return printAsciiArt(IntegerToRoman.convert(num));
     }
 
-    private static String printAsciiArt(String s) {
+    public static String printAsciiArt(String s) {
+      if(s == null) {
+        throw new  IllegalArgumentException("Null parameter");
+      }
         String art="";
       for(int i = 0 ; i< 6;i++){
           for(int j = 0; j<s.length();j++){
+            try{
               art+= letters.get(String.valueOf(s.charAt(j))).split("\\r?\\n")[i];
+            }catch(NullPointerException Ne){
+                throw new  IllegalArgumentException("There is a letter not present in the roman number format");
+            }
           }
-          art+='\n';
+          if(i<5){
+            art+='\n';
+          }
       }
       return art;
     }

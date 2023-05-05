@@ -1,15 +1,12 @@
 package it.unipd.mtss;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
 public class IntegerToRomanTest 
 {
 
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-    }
+ 
+
 }
