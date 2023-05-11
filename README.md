@@ -2,7 +2,7 @@
 ![coverage](.github/badges/jacoco.svg)
 ![branches_coverage](.github/badges/branches.svg)
 ![Checkstyle](https://img.shields.io/badge/style-checkstyle-green.svg)
-[![codecov](https://codecov.io/gh/AlexVedovato/MTSS_Assignment_2/branch/master/graph/badge.svg?token=f243ba3d-48e3-4694-bcad-b2789c298de1)](https://codecov.io/gh/AlexVedovato/MTSS_Assignment_2)
+[![codecov](https://codecov.io/gh/AlexVedovato/MTSS_Assignment_2/branch/master/graph/badge.svg?token=$secrets.CODECOV_TOKEN)](https://codecov.io/gh/AlexVedovato/MTSS_Assignment_2)
 
 # MTSS_Assignment_2
 # Convertitore integer to roman
